@@ -1,0 +1,105 @@
+* {box-sizing: border-box;}
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;}
+.header {
+  background-color: lavender;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  height: 7em; }
+h1{
+font-size: 30px;
+font-family: 'pirata one';
+text-shadow: grey;
+}
+.welcome{
+  float: right;
+  color:black;
+  margin: 30px;
+  padding: 20px;
+  font-size: 20px;
+  
+}
+p.demo{
+  float: left;
+}
+.specific{
+  color: purple;
+font-size:40px ;}
+
+.style{
+  color: rgb(168, 135, 235);
+  font-size: 30px;
+}
+nav-menu ul {
+  list-style-type: none;
+  padding: 0,15px;}
+.nav-menu a {
+  color: black;
+  text-align: center;
+  padding:5px 10px;
+  text-decoration: none;
+  font-size: 16px; 
+  line-height: 25px;
+  border-radius: 3px;}
+.header a:hover {
+  background-color: #ddd;
+  color: black;}
+.nav-menu a.active {
+  background-color: dodgerblue;
+  color: white;}
+.nav-menu li {
+  display: inline;
+  margin: 0 10px;}
+.image{
+  max-width: 30%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+}
+
+footer{
+  color: #f0f0f0;
+  background-color: #333;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+}
+.fa{
+padding: 20px;
+font-size: 30px;
+text-align: center;
+width: 50px;
+color: #f0f0f0;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+ 
+
